@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import <DMFlightsFoundation/DMflightsFoundation.h>
+
 @interface AppDelegate ()
 
 @end
@@ -16,7 +18,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"DMFlightsMain" bundle:[NSBundle bundleForClass:[DMFlightsSearchViewController class]]];
+    UIViewController  *initialViewController = [mainStoryboard instantiateInitialViewController];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:initialViewController];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
