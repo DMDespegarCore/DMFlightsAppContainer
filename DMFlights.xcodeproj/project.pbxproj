@@ -13,6 +13,7 @@
 		C320FDCF1B408C9A000569CE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C320FDCD1B408C9A000569CE /* LaunchScreen.xib */; };
 		C320FDDB1B408C9A000569CE /* DMFlightsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C320FDDA1B408C9A000569CE /* DMFlightsTests.m */; };
 		F09E986A1B61908D00149AFD /* DMCoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F09E985A1B618D3600149AFD /* DMCoreFoundation.framework */; };
+		F0B40AB51B628E3900E21DFA /* DMXSellingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B40AB41B628E3900E21DFA /* DMXSellingManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C320FDD91B408C9A000569CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C320FDDA1B408C9A000569CE /* DMFlightsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMFlightsTests.m; sourceTree = "<group>"; };
 		F09E98541B618D3600149AFD /* DMCoreFoundation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DMCoreFoundation.xcodeproj; path = ../DMCoreFoundation/DMCoreFoundation.xcodeproj; sourceTree = "<group>"; };
+		F0B40AB31B628E3900E21DFA /* DMXSellingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMXSellingManager.h; sourceTree = "<group>"; };
+		F0B40AB41B628E3900E21DFA /* DMXSellingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMXSellingManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 		C320FDBD1B408C9A000569CE /* DMFlights */ = {
 			isa = PBXGroup;
 			children = (
+				F0B40AB31B628E3900E21DFA /* DMXSellingManager.h */,
+				F0B40AB41B628E3900E21DFA /* DMXSellingManager.m */,
 				C320FDC21B408C9A000569CE /* AppDelegate.h */,
 				C320FDC31B408C9A000569CE /* AppDelegate.m */,
 				C320FDCB1B408C9A000569CE /* Images.xcassets */,
@@ -317,6 +322,7 @@
 			files = (
 				C320FDC41B408C9A000569CE /* AppDelegate.m in Sources */,
 				C320FDC11B408C9A000569CE /* main.m in Sources */,
+				F0B40AB51B628E3900E21DFA /* DMXSellingManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
