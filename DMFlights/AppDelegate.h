@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+@import DMFlightsFoundation;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate, DMFlightSellingProvider>
 
 @property (strong, nonatomic) UIWindow *window;
 

@@ -8,8 +8,6 @@
 
 #import "AppDelegate.h"
 
-#import <DMFlightsFoundation/DMflightsFoundation.h>
-
 @interface AppDelegate ()
 
 @end
